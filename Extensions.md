@@ -2,6 +2,8 @@ Extensions I personally use with VS Codium
 
 [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
 
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
 [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
@@ -30,6 +32,8 @@ Extensions I personally use with VS Codium
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
+[Ligatures Limited](https://marketplace.visualstudio.com/items?itemName=kshetline.ligatures-limited)
+
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 [Mono Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug)
@@ -40,7 +44,11 @@ Extensions I personally use with VS Codium
 
 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-[Remote - SSD: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+[Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+
+[Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server)
+
+[Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 
@@ -49,7 +57,3 @@ Extensions I personally use with VS Codium
 [Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-
-[Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server)
-
-[Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)

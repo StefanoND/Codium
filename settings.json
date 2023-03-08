@@ -1,0 +1,92 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "Codegeex.Survey": false,
+    "Codegeex.Privacy": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "tabnine.experimentalAutoImports": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.intelliSenseMemoryLimit": 8192,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "cmake.configureOnOpen": true,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.fontWeight": "450",
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.rulers": [
+        {
+            // Git Commit
+            "column": 50,
+            "color": "#004d00"
+        },
+        {
+            // Code Length
+            "column": 80,
+            "color": "#805300"
+        },
+        {
+            // Comment Length
+            "column": 120,
+            "color": "#800000"
+        }
+    ],
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 30000,
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}"
+    //"workbench.colorCustomizations": {
+    //"editorRuler.foreground": "#ff4081"
+    //}
+}

@@ -1,5 +1,7 @@
 Extensions I personally use with VS Codium
-
+#
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+#
 [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
 
 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)

@@ -3,6 +3,8 @@ Extensions I personally use with VS Codium
 # Base
 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
+[C/C++ Debugging with Flags](https://marketplace.visualstudio.com/items?itemName=utsavm9.c-cpp-flag-debugging)
+
 [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
 
 [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)

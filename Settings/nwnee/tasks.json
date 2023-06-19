@@ -1,0 +1,141 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "NWScript Snippets",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}/vnwscript.nss",
+                "${workspaceFolder}/vnwscript.nss",
+                //"${workspaceFolder}/enwscript.nss",
+                //"${file}",
+                "${fileDirname}",
+                "${workspaceFolder}/.vscode/nss.code-snippets"
+            ],
+            "command": ["nssnippets"],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Current File Snippets",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}/vnwscript.nss",
+                "${file}",
+                "${fileDirname}",
+                "${workspaceFolder}/.vscode/nss.code-snippets"
+            ],
+            "command": ["nssnippets"],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "NWNSC Script Compile File",
+            "type": "process",
+            "args": [
+                "-c",
+                "-o",
+                "-y",
+                "-h",
+                "/path/to/.local/share/Neverwinter Nights",
+                "-n",
+                "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "-i",
+                "${fileDirname}",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${fileDirname}"
+                ],
+                "pattern": {
+                    "regexp": "(.*?(?=(?:\\()|$))\\((.*?)\\): (Warning|Error): (.*)",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                },
+                "owner": "nwnsc"
+            },
+            "command": [
+                "nwnsc"
+            ],
+            "presentation": {
+                "clear": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "NWNSC Script Compile Everything in Folder",
+            "type": "process",
+            "args": [
+                "-c",
+                "-o",
+                "-y",
+                "-h",
+                "/path/to/.local/share/Neverwinter Nights",
+                "-n",
+                "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "-i",
+                "${fileDirname}",
+                "${fileDirname}/*.nss"
+            ],
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${fileDirname}"
+                ],
+                "pattern": {
+                    "regexp": "(.*?(?=(?:\\()|$))\\((.*?)\\): (Warning|Error): (.*)",
+                    "file": 1,
+                    "line": 2,
+                    "severity": 3,
+                    "message": 4
+                },
+                "owner": "nwnsc"
+            },
+            "command": [
+                "nwnsc"
+            ],
+            "presentation": {
+                "clear": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Update Scripts",
+            "type": "process",
+            "command": ["updatemod.sh"],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Update NWNX",
+            "type": "process",
+            "command": ["nwnx-update.sh"],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+    ]
+}

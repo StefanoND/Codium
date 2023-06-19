@@ -89,9 +89,7 @@
         "source.fixAll": true
     },
     "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
-    "discord.swapBigAndSmallImage": true,
     "editor.mouseWheelZoom": true,
-    "code-runner.enableAppInsights": false,
     "clang-format.executable": "clang-format",
     "clang-format.style": "${workspaceRoot}/.vscode/.clang-format",
     "clang-format.language.c.enable": true,

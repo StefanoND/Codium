@@ -11,9 +11,13 @@ Extensions I personally use with VS Codium
 
 [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
+[Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
+
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+
+[Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) (GitHub Repositoreis Dependency)
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 

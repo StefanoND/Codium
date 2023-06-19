@@ -100,4 +100,10 @@
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "dateTime.showOnStartup": true,
+    "dateTime.showDayOfMonth": true,
+    "dateTime.showMonth": true,
+    "dateTime.use24HourClock": true,
+    "dateTime.showAMPM": false,
+    "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss"
 }

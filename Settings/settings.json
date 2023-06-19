@@ -1,105 +1,105 @@
 {
-  "telemetry.enableTelemetry": false,
-  "telemetry.telemetryLevel": "0",
-  "telemetry.enableCrashReporter": false,
-  "telemetry.crashReporter.enabled": false,
-  "gitlens.telemetry.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "C_Cpp.default.cppStandard": "c++23",
-  "C_Cpp.default.cStandard": "c23",
-  "C_Cpp.intelliSenseMemoryLimit": 8192,
-  "cmake.configureOnOpen": true,
-  "tabnine.experimentalAutoImports": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "450",
-  "editor.inlineSuggest.showToolbar": "always",
-  "editor.rulers": [
-    {
-      // Git Commit
-      "column": 50,
-      "color": "#004d00"
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
+    "telemetry.crashReporter.enabled": false,
+    "gitlens.telemetry.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.intelliSenseMemoryLimit": 8192,
+    "cmake.configureOnOpen": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "450",
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.rulers": [
+        {
+            // Git Commit
+            "column": 50,
+            "color": "#004d00"
+        },
+        {
+            // Code Length
+            "column": 80,
+            "color": "#805300"
+        },
+        {
+            // Comment Length
+            "column": 120,
+            "color": "#800000"
+        }
+    ],
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 30000,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
     },
-    {
-      // Code Length
-      "column": 80,
-      "color": "#805300"
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
+    "discord.swapBigAndSmallImage": true,
+    "editor.mouseWheelZoom": true,
+    "code-runner.enableAppInsights": false,
+    "clang-format.executable": "clang-format",
+    "clang-format.style": "${workspaceRoot}/.vscode/.clang-format",
+    "clang-format.language.c.enable": true,
+    "clang-format.language.cpp.enable": true,
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
     },
-    {
-      // Comment Length
-      "column": 120,
-      "color": "#800000"
-    }
-  ],
-  "better-comments.highlightPlainText": true,
-  "better-comments.tags": [
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
     },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    }
-  ],
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 30000,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
-  "discord.swapBigAndSmallImage": true,
-  "editor.mouseWheelZoom": true,
-  "code-runner.enableAppInsights": false,
-  "clang-format.executable": "clang-format",
-  "clang-format.style": "${workspaceRoot}/.vscode/.clang-format",
-  "clang-format.language.c.enable": true,
-  "clang-format.language.cpp.enable": true,
-  "[c]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
 }

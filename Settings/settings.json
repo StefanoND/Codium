@@ -1,156 +1,105 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark - C++",
-    //"Codegeex.Survey": false,
-    //"Codegeex.Privacy": false,
-    "gitlens.hovers.currentLine.over": "line",
-    //"tabnine.experimentalAutoImports": true,
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.default.cStandard": "c17",
-    "C_Cpp.intelliSenseMemoryLimit": 8192,
-    "prettier.tabWidth": 4,
-    "cmake.configureOnOpen": true,
-    "editor.fontFamily": "Fira Code Retina",
-    "editor.fontLigatures": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "files.associations": {
-        "*.nss": "nwscript"
+  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "0",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.crashReporter.enabled": false,
+  "gitlens.telemetry.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.cStandard": "c23",
+  "C_Cpp.intelliSenseMemoryLimit": 8192,
+  "cmake.configureOnOpen": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "450",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.rulers": [
+    {
+      // Git Commit
+      "column": 50,
+      "color": "#004d00"
     },
-    "editor.fontWeight": "450",
-    "editor.inlineSuggest.showToolbar": "always",
-    "editor.rulers": [
-        {
-            // Git Commit
-            "column": 50,
-            "color": "#004d00"
-        },
-        {
-            // Code Length
-            "column": 80,
-            "color": "#805300"
-        },
-        {
-            // Comment Length
-            "column": 120,
-            "color": "#800000"
-        }
-    ],
-    "better-comments.highlightPlainText": true,
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#98C379",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-    "editor.formatOnSaveMode": "modificationsIfAvailable",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 30000,
-    "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
-    //"workbench.colorCustomizations": {
-    //"editorRuler.foreground": "#ff4081"
-    //}
-    "[nwscript]": {
-        "editor.defaultFormatter": "PhilippeChab.nwscript-ee-language-server"
+    {
+      // Code Length
+      "column": 80,
+      "color": "#805300"
     },
-    "nwscript-ee-lsp.formatter": {
-        "enabled": true,
-        "executable": "clang-format",
-        "ignoredGlobs": [
-            "/folder/to/ignore/*.nss",
-            "file/to/ignore/filename.nss"
-        ],
-        "style": {
-            "BasedOnStyle": "GNU",
-            "AlignAfterOpenBracket": {
-                "Align": "BAS_Align"
-            },
-            "AlignConsecutiveAssignments": {
-                "Enabled": true,
-                "AlignCompound": true
-            },
-            "AlignConsecutiveBitFields": {
-                "Enabled": true,
-                "AlignCompound": true,
-                "PadOperators": true
-            },
-            "AlignConsecutiveDeclarations": {
-                "Enabled": true,
-                "AlignCompound": true,
-                "PadOperators": true
-            },
-            "AlignEscapedNewlines": "Left",
-            "AlignTrailingComments": true,
-            "AllowAllArgumentsOnNextLine": false,
-            "AllowAllParametersOfDeclarationOnNextLine": false,
-            "AllowShortBlocksOnASingleLine": "Always",
-            "AllowShortCaseLabelsOnASingleLine": true,
-            "AllowShortIfStatementsOnASingleLine": "WithoutElse",
-            "AllowShortLoopsOnASingleLine": true,
-            "BinPackArguments": false,
-            "BinPackParameters": false,
-            "BreakConstructorInitializers": "AfterColon",
-            "BreakInheritanceList": "AfterComma",
-            "ColumnLimit": 80,
-            "EmptyLineAfterAccessModifier": "Leave",
-            "EmptyLineBeforeAccessModifier": "Always",
-            "IncludeBlocks": "Regroup",
-            "IndentAccessModifiers": true,
-            "IndentCaseBlocks": true,
-            "IndentCaseLabels": true,
-            "IndentPPDirectives": "AfterHash",
-            "IndentWidth": 4,
-            "InsertBraces": true,
-            "KeepEmptyLinesAtTheStartOfBlocks": false,
-            "MaxEmptyLinesToKeep": 3,
-            "NamespaceIndentation": "All",
-            "ObjCBlockIndentWidth": 4,
-            "PackConstructorInitializers": "Never",
-            "QualifierAlignment": "Left",
-            "ShortNamespaceLines": 0,
-            "SpaceBeforeRangeBasedForLoopColon": false,
-            "Standard": "c++20",
-            "TabWidth": 4
-        }
+    {
+      // Comment Length
+      "column": 120,
+      "color": "#800000"
     }
+  ],
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 30000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
+  "discord.swapBigAndSmallImage": true,
+  "editor.mouseWheelZoom": true,
+  "code-runner.enableAppInsights": false,
+  "clang-format.executable": "clang-format",
+  "clang-format.style": "${workspaceRoot}/.vscode/.clang-format",
+  "clang-format.language.c.enable": true,
+  "clang-format.language.cpp.enable": true,
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
 }

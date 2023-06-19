@@ -1,48 +1,40 @@
 Extensions I personally use with VS Codium
-#
-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-#
-[Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
-
-[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-
+[]()
+# Base
 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
-[C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
-
-[C/C++ Themes](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-themes)
-
-[C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-
-[C++ Intellisense](https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global)
+[Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
 
 [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
 
 [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
-[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-
-[CodeGeeX](https://marketplace.visualstudio.com/items?itemName=aminer.codegeex)
-
-[CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
-
-[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-
-[Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
+[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[Ligatures Limited](https://marketplace.visualstudio.com/items?itemName=kshetline.ligatures-limited)
-
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-[Mono Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug)
+[Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+# Aesthetic
+[Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) (Moccha theme)
+# QoL
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
 [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)
 
-[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+# Personal/Hobby
+[nwscript-ee-language-server](https://marketplace.visualstudio.com/items?itemName=PhilippeChab.nwscript-ee-language-server)
+# Misc
+[Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
+
+# I'm not currently using these
+[Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
+
+[C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+
+[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
@@ -55,7 +47,3 @@ Extensions I personally use with VS Codium
 [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 
 [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
-
-[Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-
-[WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)

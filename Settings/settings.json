@@ -17,18 +17,15 @@
     "editor.fontWeight": "450",
     "editor.inlineSuggest.showToolbar": "always",
     "editor.rulers": [
-        {
-            // Git Commit
+        { // Git Commit
             "column": 50,
             "color": "#004d00"
         },
-        {
-            // Code Length
+        { // Code Length
             "column": 80,
             "color": "#805300"
         },
-        {
-            // Comment Length
+        { // Comment Length
             "column": 120,
             "color": "#800000"
         }
@@ -90,6 +87,7 @@
     },
     "window.title": "${dirty}${activeEditorLong}${separator}${rootPath}",
     "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0,
     "clang-format.executable": "clang-format",
     "clang-format.style": "${workspaceRoot}/.vscode/.clang-format",
     "clang-format.language.c.enable": true,
@@ -105,5 +103,7 @@
     "dateTime.showMonth": true,
     "dateTime.use24HourClock": true,
     "dateTime.showAMPM": false,
-    "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss"
+    "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.renderCharacters": false
 }

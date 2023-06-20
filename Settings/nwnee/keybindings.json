@@ -1,0 +1,32 @@
+[
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "NWScript Compile File"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "NWScript Compile All"
+    },
+    {
+        "key": "F9",
+        "command": "workbench.action.tasks.runTask",
+        "args": "NWScript Snippets"
+    },
+    {
+        "key": "shift+F9",
+        "command": "workbench.action.tasks.runTask",
+        "args": "NWScript File Snippets"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Update Scripts"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Update NWNX"
+    },
+]

@@ -14,14 +14,16 @@
                 "${fileDirname}",
                 "${workspaceFolder}/.vscode/nss.code-snippets"
             ],
-            "command": ["nssnippets"],
+            "command": [
+                "nssnippets"
+            ],
             "presentation": {
                 "reveal": "never"
             },
             "problemMatcher": []
         },
         {
-            "label": "Current File Snippets",
+            "label": "NWScript File Snippets",
             "type": "process",
             "args": [
                 "${workspaceFolder}/vnwscript.nss",
@@ -29,21 +31,23 @@
                 "${fileDirname}",
                 "${workspaceFolder}/.vscode/nss.code-snippets"
             ],
-            "command": ["nssnippets"],
+            "command": [
+                "nssnippets"
+            ],
             "presentation": {
                 "reveal": "never"
             },
             "problemMatcher": []
         },
         {
-            "label": "NWNSC Script Compile File",
+            "label": "NWScript Compile File",
             "type": "process",
             "args": [
                 "-c",
                 "-o",
                 "-y",
                 "-h",
-                "/path/to/.local/share/Neverwinter Nights",
+                "/path/to/NWN/Documents",
                 "-n",
                 "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
@@ -78,14 +82,14 @@
             }
         },
         {
-            "label": "NWNSC Script Compile Everything in Folder",
+            "label": "NWScript Compile All",
             "type": "process",
             "args": [
                 "-c",
                 "-o",
                 "-y",
                 "-h",
-                "/path/to/.local/share/Neverwinter Nights",
+                "/path/to/NWN/Documents",
                 "-n",
                 "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
@@ -122,7 +126,9 @@
         {
             "label": "Update Scripts",
             "type": "process",
-            "command": ["updatemod.sh"],
+            "command": [
+                "updatemod.sh"
+            ],
             "presentation": {
                 "reveal": "never"
             },
@@ -131,7 +137,9 @@
         {
             "label": "Update NWNX",
             "type": "process",
-            "command": ["nwnx-update.sh"],
+            "command": [
+                "nwnx-update.sh"
+            ],
             "presentation": {
                 "reveal": "never"
             },

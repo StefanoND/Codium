@@ -11,7 +11,7 @@ Extensions I personally use with VS Codium
 
 [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
-[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner&source=post_page---------------------------)
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 [Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
@@ -23,25 +23,33 @@ Extensions I personally use with VS Codium
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
 [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
 [Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
-[tl;dr pages](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
-
 [vscode-database](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database)
-# Aesthetic
-[Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) (Moccha theme)
 # QoL
 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
+[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 
 [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+[Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+
+[tl;dr pages](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
+
+[Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 # Personal/Hobby
 [nwscript-ee-language-server](https://marketplace.visualstudio.com/items?itemName=PhilippeChab.nwscript-ee-language-server)
+# Aesthetic
+[Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) (Moccha theme)
+
+[indent rainbow](https://x-team.com/blog/best-vscode-extensions/#indent-rainbow)
 # Misc
 [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 

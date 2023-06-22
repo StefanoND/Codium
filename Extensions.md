@@ -11,6 +11,8 @@ Extensions I personally use with VS Codium
 
 [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
 
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner&source=post_page---------------------------)
+
 [Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
@@ -21,7 +23,15 @@ Extensions I personally use with VS Codium
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+[SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
 [Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+
+[tl;dr pages](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
+
+[vscode-database](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database)
 # Aesthetic
 [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) (Moccha theme)
 # QoL

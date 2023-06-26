@@ -47,9 +47,9 @@
                 "-o",
                 "-y",
                 "-h",
-                "/path/to/NWN/Documents",
+                "/mnt/SSD_WORK/NWN/Documents",
                 "-n",
-                "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "/mnt/SSD_WORK/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
                 "${fileDirname}",
                 "${file}"
@@ -89,9 +89,9 @@
                 "-o",
                 "-y",
                 "-h",
-                "/path/to/NWN/Documents",
+                "/mnt/SSD_WORK/NWN/Documents",
                 "-n",
-                "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "/mnt/SSD_WORK/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
                 "${fileDirname}",
                 "${fileDirname}/*.nss"
@@ -139,6 +139,28 @@
             "type": "process",
             "command": [
                 "nwnx-update.sh"
+            ],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Kill nwnsc",
+            "type": "process",
+            "command": [
+                "killnwnsc.sh"
+            ],
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Update server",
+            "type": "process",
+            "command": [
+                "updateserver.sh"
             ],
             "presentation": {
                 "reveal": "never"

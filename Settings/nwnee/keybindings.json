@@ -1,4 +1,9 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
+    {
+        "key": "ctrl+numpad_decimal",
+        "command": "editor.action.fontZoomReset"
+    },
     {
         "key": "ctrl+b",
         "command": "workbench.action.tasks.runTask",
@@ -28,5 +33,15 @@
         "key": "ctrl+alt+u",
         "command": "workbench.action.tasks.runTask",
         "args": "Update NWNX"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Kill nwnsc"
+    },
+    {
+        "key": "alt+u",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Update server"
     },
 ]

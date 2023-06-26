@@ -2,8 +2,8 @@
   "nwscript-ee-lsp.compiler": {
     "enabled": true,
     "verbose": true,
-    "nwnHome": "/path/to/.local/share/Neverwinter Nights",
-    "nwnInstallation": "/path/to/SteamLibrary/steamapps/common/Neverwinter Nights"
+    "nwnHome": "/home/mjvmdd/.local/share/Neverwinter Nights",
+    "nwnInstallation": "/mnt/SSD_WORK/SteamLibrary/steamapps/common/Neverwinter Nights"
   },
   "nwscript-ee-lsp.hovering": {
     "enabled": true,

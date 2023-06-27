@@ -1,6 +1,8 @@
 Extensions I personally use with VS Codium
 []()
 # Base
+[Blank Line at the End of File](https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile)
+
 [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
 [C/C++ Debugging with Flags](https://marketplace.visualstudio.com/items?itemName=utsavm9.c-cpp-flag-debugging)
@@ -15,9 +17,15 @@ Extensions I personally use with VS Codium
 
 [Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
+[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
+[Github Pull Request](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+
+[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) (GitHub Repositoreis Dependency)
 
@@ -53,6 +61,7 @@ Extensions I personally use with VS Codium
 # Misc
 [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 
+[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 # I'm not currently using these
 [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
 

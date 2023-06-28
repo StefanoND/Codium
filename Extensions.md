@@ -2,7 +2,7 @@ Extensions I personally use with VS Codium
 []()
 # Incompatible
 ## Partial
-[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Because [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) became closed source, check replacements section)
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Because [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) became closed source, check [Replacements](https://github.com/StefanoND/Codium/blob/main/Extensions.md#replacements) section)
 ## Officially Incompatible
 [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) (Due to maintenance burden)
 ## Due to licensing

@@ -12,12 +12,12 @@ Extensions I personally use with VS Codium
 
 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (Replaced by [Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh))
 
-[Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+[Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) (Replaced by [Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh))
 
 [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
 # Replacements
-[Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh) (Replaces [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh))
+[Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh) (Replaces [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) and [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit))
 # Base
 [Blank Line at the End of File](https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile)
 

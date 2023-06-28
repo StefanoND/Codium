@@ -1,5 +1,23 @@
 Extensions I personally use with VS Codium
 []()
+# Incompatible
+## Partial
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Became closed source)
+## Officially Incompatible
+[LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) (Due to maintenance burden)
+## Due to licensing
+[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+
+[Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (Replaced by [Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh))
+
+[Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+
+[Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+
+# Replacements
+[Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh) (Replaces [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh))
 # Base
 [Blank Line at the End of File](https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile)
 
@@ -25,11 +43,11 @@ Extensions I personally use with VS Codium
 
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 
-[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-
 [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) (GitHub Repositoreis Dependency)
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+[Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh)
 
 [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 

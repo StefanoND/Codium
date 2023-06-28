@@ -2,7 +2,7 @@ Extensions I personally use with VS Codium
 []()
 # Incompatible
 ## Partial
-[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Became closed source)
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (Because [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) became closed source, check replacements section)
 ## Officially Incompatible
 [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) (Due to maintenance burden)
 ## Due to licensing
@@ -15,9 +15,12 @@ Extensions I personally use with VS Codium
 [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) (Replaced by [Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh))
 
 [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-
 # Replacements
 [Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh) (Replaces [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) and [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit))
+
+[Pyright](https://marketplace.visualstudio.com/items?itemName=ms-pyright.pyright) (Replaces [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) for Error Checking)
+
+[Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=evgeniypeshkov.syntax-highlighter) (Replaces [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) for Syntax Highlighting)
 # Base
 [Blank Line at the End of File](https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile)
 
@@ -84,10 +87,6 @@ Extensions I personally use with VS Codium
 [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
 [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-
-[Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-
-[Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
 [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server)
 

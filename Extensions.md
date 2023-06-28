@@ -47,8 +47,6 @@ Extensions I personally use with VS Codium
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[Open Remote - SSH](https://open-vsx.org/extension/jeanp413/open-remote-ssh)
-
 [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 
 [Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)

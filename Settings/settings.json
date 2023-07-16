@@ -1,8 +1,5 @@
 {
-    //"telemetry.enableTelemetry": false,
-    //"telemetry.enableCrashReporter": false,
     "telemetry.telemetryLevel": "off",
-    "telemetry.crashReporter.enabled": false,
     "gitlens.telemetry.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "C_Cpp.default.cppStandard": "c++23",
@@ -106,30 +103,5 @@
     "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "nwscript-ee-lsp.compiler": {
-        "enabled": true,
-        "verbose": true,
-        "nwnHome": "/path/to/.local/share/Neverwinter Nights",
-        "nwnInstallation": "/path/to/steamapps/common/Neverwinter Nights"
-    },
-    "nwscript-ee-lsp.hovering": {
-        "enabled": true,
-    },
-    "nwscript-ee-lsp.completion": {
-        "enabled": true,
-    },
-    "files.associations": {
-        "*.nss": "nwscript"
-    },
-    "[nwscript]": {
-        "editor.defaultFormatter": "PhilippeChab.nwscript-ee-language-server"
-    },
-    "nwscript-ee-lsp.formatter": {
-        "enabled": true,
-        "executable": "clang-format",
-        "ignoredGlobs": [
-            "/folder/to/ignore/*.nss",
-            "file/to/ignore/filename.nss"
-        ],
-    }
+    "files.trimTrailingWhitespace": true
 }

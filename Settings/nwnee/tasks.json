@@ -124,17 +124,6 @@
             }
         },
         {
-            "label": "Update Scripts",
-            "type": "process",
-            "command": [
-                "updatemod.sh"
-            ],
-            "presentation": {
-                "reveal": "never"
-            },
-            "problemMatcher": []
-        },
-        {
             "label": "Update NWNX",
             "type": "process",
             "command": [

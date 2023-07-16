@@ -105,5 +105,31 @@
     "dateTime.showAMPM": false,
     "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss",
     "editor.minimap.showSlider": "always",
-    "editor.minimap.renderCharacters": false
+    "editor.minimap.renderCharacters": false,
+    "nwscript-ee-lsp.compiler": {
+        "enabled": true,
+        "verbose": true,
+        "nwnHome": "/path/to/.local/share/Neverwinter Nights",
+        "nwnInstallation": "/path/to/steamapps/common/Neverwinter Nights"
+    },
+    "nwscript-ee-lsp.hovering": {
+        "enabled": true,
+    },
+    "nwscript-ee-lsp.completion": {
+        "enabled": true,
+    },
+    "files.associations": {
+        "*.nss": "nwscript"
+    },
+    "[nwscript]": {
+        "editor.defaultFormatter": "PhilippeChab.nwscript-ee-language-server"
+    },
+    "nwscript-ee-lsp.formatter": {
+        "enabled": true,
+        "executable": "clang-format",
+        "ignoredGlobs": [
+            "/folder/to/ignore/*.nss",
+            "file/to/ignore/filename.nss"
+        ],
+    }
 }

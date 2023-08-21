@@ -28,6 +28,8 @@ Extensions I personally use with VS Codium
 
 [C/C++ Debugging with Flags](https://marketplace.visualstudio.com/items?itemName=utsavm9.c-cpp-flag-debugging)
 
+[C/C++ Makefile Project](https://marketplace.visualstudio.com/items?itemName=adriano-markovic.c-cpp-makefile-project)
+
 [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
 
 [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
@@ -76,7 +78,7 @@ Extensions I personally use with VS Codium
 # Aesthetic
 [Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) (Moccha theme)
 
-[indent rainbow](https://x-team.com/blog/best-vscode-extensions/#indent-rainbow)
+[indent rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 # Misc
 [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 

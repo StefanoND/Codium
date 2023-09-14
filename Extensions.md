@@ -56,6 +56,8 @@ Extensions I personally use with VS Codium
 
 [Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
+[Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
 [vscode-database](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database)
 # QoL
 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)

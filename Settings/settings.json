@@ -103,5 +103,20 @@
     "dateTime.customFormat": "dddd, DD/MMMM/YYYY - HH:mm:ss",
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "cmake.generator": "Unix Makefiles",
+    // Uncomment if using VS Codium flatpak
+    //  "omnisharp.useGlobalMono": "always",
+    //  "terminal.integrated.defaultProfile.linux": "bash",
+    //  "terminal.integrated.profiles.linux": {
+    //      "bash": {
+    //          "path": "/usr/bin/flatpak-spawn",
+    //          "args": [
+    //              "--host",
+    //              "--env=TERM=xterm-256color",
+    //              "bash"
+    //          ]
+    //      }
+    //  },
+    "vim.leader": "<space>",
 }

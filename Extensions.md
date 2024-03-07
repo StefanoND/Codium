@@ -44,8 +44,6 @@ Extensions I personally use with VS Codium
 
 [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-
 [Github Pull Request](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
@@ -55,8 +53,6 @@ Extensions I personally use with VS Codium
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
-
-[Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
@@ -96,6 +92,8 @@ Extensions I personally use with VS Codium
 
 [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
+[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+
 [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server)
 
 [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
@@ -103,3 +101,5 @@ Extensions I personally use with VS Codium
 [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
 
 [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
+
+[Tabnine AI Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)

@@ -47,9 +47,9 @@
                 "-o",
                 "-y",
                 "-h",
-                "/mnt/SSD_WORK/NWN/Documents",
+                "/mnt/SSD_1TB_WORK/WoSEE/Documents",
                 "-n",
-                "/mnt/SSD_WORK/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "/mnt/SSD_1TB_GAMES/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
                 "${fileDirname}",
                 "${file}"
@@ -89,9 +89,9 @@
                 "-o",
                 "-y",
                 "-h",
-                "/mnt/SSD_WORK/NWN/Documents",
+                "/mnt/SSD_1TB_WORK/WoSEE/Documents",
                 "-n",
-                "/mnt/SSD_WORK/SteamLibrary/steamapps/common/Neverwinter Nights",
+                "/mnt/SSD_1TB_GAMES/SteamLibrary/steamapps/common/Neverwinter Nights",
                 "-i",
                 "${fileDirname}",
                 "${fileDirname}/*.nss"
@@ -108,10 +108,10 @@
                     "severity": 3,
                     "message": 4
                 },
-                "owner": "nwnsc"
+                "owner": "nwn_script_comp"
             },
             "command": [
-                "nwnsc"
+                "nwn_script_comp"
             ],
             "presentation": {
                 "clear": true,

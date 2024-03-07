@@ -38,6 +38,8 @@ Extensions I personally use with VS Codium
 
 [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
+[Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) (Alternative to Copilot)
+
 [Date & Time](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
 [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)

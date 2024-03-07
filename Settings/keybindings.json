@@ -1,6 +1,16 @@
 // Place your key bindings in this file to override the defaults
 [
     {
+        "key": ">",
+        "command": "tab",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
+        "key": "<",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
         "key": "tab",
         "command": "tab",
         "when": "editorTextFocus && !editorTabMovesFocus"

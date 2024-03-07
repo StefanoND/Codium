@@ -75,6 +75,8 @@ Extensions I personally use with VS Codium
 [tl;dr pages](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 
 [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
+[VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 # Personal/Hobby
 [nwscript-ee-language-server](https://marketplace.visualstudio.com/items?itemName=PhilippeChab.nwscript-ee-language-server)
 # Aesthetic

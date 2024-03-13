@@ -48,6 +48,8 @@ Extensions I personally use with VS Codium
 
 [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 
+[JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode)
+
 [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) (GitHub Repositoreis Dependency)
 
 [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
